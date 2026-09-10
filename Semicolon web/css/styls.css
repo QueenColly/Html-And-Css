@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.Container{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: whitesmoke; */
+    
+    
+}
+
+.main-header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 4; */
+    /* background-color: red; */
+
+}
+
+.header-wrapper{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.semicolonLogo{
+    width: 40%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    
+}
+
+.semicolonImage{
+    width: 45%;
+    height: 80%;
+    /* background-color: red; */
+}
+.semicolonImage >img{
+    width: 60%;
+    height: 90%;
+    cursor: pointer;
+
+}
+
+.header-menu{
+    width: 60%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-btn{
+    width: 72%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header-btn > nav:hover{
+    cursor: pointer;
+    color: lightgray;
+    line-height: 12px;
+    
+
+}
+
+.header-btn, nav{
+    font-size: 16px;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+.header-joinbtn{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.talent-pool-btn{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: none;
+    color: #e74c3c;
+    border: 2px solid #e74c3c;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Heropagecontainer{
+    width: 100%;
+    height: 470px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeWrapper{
+    width: 90%;
+    height: 80%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.leftHeropage{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+}
+.leftHeropageWrapper{
+    width: 85%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+.heroAfrica{
+    width: 100%;
+    height: 30%;
+    /* background-color: beige; */
+    text-align: left;
+    
+}
+
+.heroAfrica > h1{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #757575;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.herowritUp{
+    width: 80%;
+    height: 20%;
+    /* background-color: gold; */
+
+}
+
+
+
+.herowritUp >p{
+    font-size: 16px;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.heroBtn{
+    width: 100%;
+    height: 40%;
+    /* background-color: gray; */
+}
+
+.heroBtnwrapper{
+    width: 90%;
+    height: 50%;
+    /* background-color: firebrick; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftBtn{
+    width: 45%;
+    height: 75%;
+    background-color: #e74c3c;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.rightBtn{
+    width: 45%;
+    height: 75%;
+    /* background-color: white; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e74c3c;
+    color: #e74c3c;
+    cursor: pointer;
+}
+
+
+.heroBtnwrapper >p{
+    font-size: 15px;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #757575;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.rightHeropage{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rightHeropageWrapper{
+    width: 90%;
+    height: 90%;
+    /* background-color: blue; */
+    display: flex;
+    background-position: center;
+    object-fit: cover;
+}
+.rightHeropageWrapper img{
+    width: 100%;
+    height: 100%;
+}
+
+.whatWeDoBody{
+    width: 100%;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.BodyWrapper{
+    width: 90%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.UpWhatWeDo{
+    width: 100%;
+    height: 15%;
+    /* background-color: aqua; */
+}
+
+.WhatWeDoBox{
+    width: 12%;
+    height: 100%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.WhatWeDoBox > span{
+    font-size: 30px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #757575;
+    
+}
+.WhatWeDoBox >p{
+    font-size: 30px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #e74c3c;
+}
+.DownWhatWeDoBoc{
+    width: 100%;
+    height: 85%;
+    /* background-color: goldenrod; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.DownWhatWeDoBodyLeft{
+    width: 47%;
+    height: 100%;
+    /* background-color: gray; */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e74c3c;
+
+}
+
+.DownWhatWeDoBodyLeftRight{
+    width: 47%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 8px;
+}
+
+.DownWhatWeDoBodyLeftWrapper{
+    width: 85%;
+    height: 90%;
+    /* background-color: green; */
+}
+
+.UpBodyBox{
+    width: 100%;
+    height: 35%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.BodyBox{
+    width: 20%;
+    height: 55%;
+    /* background-color: whitesmoke; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e74c3c;
+    display: flex;
+    background-position: center;
+}
+.BodyBox > img{
+    width: 100%;
+    height: 100%;
+}
+
+.DownBodyBoxText{
+    width: 100%;
+    height: 65%;
+    /* background-color: goldenrod; */
+    text-align: start;
+    color: white;
+}
+
+.DownBodyBoxText, p{
+    font-size: 16px;
+    font-weight: 30;
+    font-size: 1.4rem;
+    /* text-spacing-trim: normal; */
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.DownBodyBoxText, span{
+    font-size: 25px;
+    font-weight: 90;
+    
+}

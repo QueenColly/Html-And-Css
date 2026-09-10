@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Data Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="webapi.js" defer></script>
+</head>
+
+<body>
+
+    <div class="maincontainer">
+        <h1>Product Data Hub</h1>
+        <p>Search for products</p>
+
+        <form id="searchForm">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search for a product..."
+                required
+            >
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <div id="message"></div>
+
+    <div class="productWrapper"></div>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 70px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:40px;
+}
+
+nav ul li a:hover{
+
+    text-decoration:none;
+
+    color:#1f355e;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+nav button:hover{
+
+    background:white;
+
+    color:#ff002e;
+
+    border:2px solid #ff002e;
+
+    padding:14px 28px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}

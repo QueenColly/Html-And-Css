@@ -1,0 +1,151 @@
+body{
+font-family: 'Quicksand', Tahoma, sans-serif;
+color: #4a2e3d;
+letter-spacing: 1px;
+background: linear-gradient(180deg, #dbd1de 0%, #f9e3ea 100%);
+background-attachment: fixed;
+}
+
+h1, h2{
+font-weight: 600;
+font-family: 'Playfair Display', serif;
+font-style: italic;
+}
+
+#wrapper{
+width: 90%;
+max-width: 960px;
+margin: 20px auto;
+border-radius: 16px;
+box-shadow: 0px 4px 20px rgba(168,87,122,0.18);
+box-sizing: border-box;
+padding: 50px;
+overflow: hidden;
+border: 1px solid #f3cddc;
+background: #fff;
+}
+
+#page-banner{
+background: linear-gradient(135deg, #f9e3ea 0%, #ae7366 100%);
+padding: 10px 0;
+border-radius: 12px;
+}
+
+#page-banner h1, #page-banner p{
+width: 100%;
+text-align: center;
+margin: 10px 0;
+}
+
+#page-banner p{
+color: #a8577a;
+}
+
+#page-banner input{
+width: 90%;
+max-width: 300px;
+margin: 20px auto;
+display: block;
+padding: 10px 16px;
+border: 1px solid #e8a4bc;
+border-radius: 999px;
+font-size: 16px;
+color: #4a2e3d;
+font-family: 'Quicksand', sans-serif;
+}
+
+#book-list, #add-book, #tabbed-content{
+margin: 30px;
+}
+
+#book-list ul, #tabbed-content ul{
+list-style-type: none;
+padding: 0;
+}
+
+#book-list li{
+padding: 20px;
+border-left: 5px solid #f3cddc;
+margin: 20px 10px;
+border-radius: 10px;
+background: #fff9f6;
+transition: border-color 0.2s ease;
+}
+
+#book-list li:hover{
+border-color: #a8577a;
+}
+
+.delete{
+float: right;
+background: transparent;
+padding: 6px 14px;
+border-radius: 999px;
+cursor: pointer;
+color: #a8577a;
+border: 1px solid #e8a4bc;
+margin-right: 10px;
+font-family: 'Quicksand', sans-serif;
+font-weight: 600;
+}
+
+.delete:hover{
+background: #a8577a;
+color: white;
+}
+
+#add-book{
+width: 400px;
+margin: 0 auto;
+}
+
+#add-book input{
+display: block;
+margin: 20px 0;
+padding: 20px;
+border: 1px solid #e8a4bc;
+font-size: 16px;
+border-radius: 4px 0 0 4px;
+box-sizing: border-box;
+width: 300px;
+float: left;
+}
+
+#add-book button{
+border: 1px solid #a8577a;
+background: #e8a4bc;
+padding: 10px 20px;
+font-size: 16px;
+display: inline-block;
+margin: 0;
+border-radius: 0 4px 4px 0;
+cursor: pointer;
+width: 100px;
+float: left;
+margin: 20px 0;
+border-left: 0;
+color: white;
+}
+
+#add-book:after{
+content: '';
+display: block;
+clear: both;
+}
+
+.check {
+background-color: #e8a4bc;
+color: white;
+border: none;
+padding: 6px 14px;
+border-radius: 999px;
+cursor: pointer;
+font-family: 'Quicksand', sans-serif;
+font-weight: 600;
+margin-right: 8px;
+float: right;
+}
+
+.check:hover{
+background-color: #a8577a;
+}
